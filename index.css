@@ -2,10 +2,9 @@
 :root {
   --logo-blue: #5084ec;
   --logo-red: red;
-  --primary: #ddd;
-  --dark: #333;
-  --light: #fff;
-  --shadow: 0 1px 5px rgba(104, 104, 104, 0.8);
+  --light1: #fff;
+  --light2: #ddd;
+  --light3: rgb(185, 184, 184);
 }
 
 h1 {
@@ -18,7 +17,7 @@ h2 {
 }
 
 hr {
-  background-color: var(--primary);
+  background-color: var(--light2);
 }
 
 section {
@@ -27,6 +26,10 @@ section {
 
 .centered-p {
   text-align: center;
+}
+
+.copyright {
+  color: var(--light3)
 }
 
 .find-us-list {
@@ -46,7 +49,7 @@ section {
 }
 
 .logo-letters {
-  color: white;
+  color: var(--light1);
   padding: 0px;
   margin: 0px;
 }
@@ -61,7 +64,7 @@ section {
 
 .view-wrapper {
   background-color: black;
-  color: white;
+  color: var(--light1);
   padding-bottom: 30px;
 }
 
