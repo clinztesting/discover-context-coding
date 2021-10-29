@@ -7,6 +7,10 @@
   --light3: rgb(185, 184, 184);
 }
 
+body {
+  background-color: black;
+}
+
 h1 {
   text-align: center;
   font-size: 8em;
@@ -44,21 +48,15 @@ section {
 
 .logo-brackets {
   color: var(--logo-blue);
-  padding: 0px;
-  margin: 0px;
 }
 
 .logo-letters {
   color: var(--light1);
-  padding: 0px;
-  margin: 0px;
 }
 
 .logo-spread {
   color: var(--logo-red);
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-  padding: 0px;
-  margin: 0px;
   /* font-family: 'Trebuchet MS'; */
 }
 
