@@ -1,0 +1,93 @@
+/* placeholder */
+:root {
+  --logo-blue: #5084ec;
+  --logo-red: red;
+  --primary: #ddd;
+  --dark: #333;
+  --light: #fff;
+  --shadow: 0 1px 5px rgba(104, 104, 104, 0.8);
+}
+
+h1 {
+  text-align: center;
+  font-size: 8em;
+}
+
+h2 {
+  font-size: 2em;
+}
+
+hr {
+  background-color: var(--primary);
+}
+
+section {
+  margin-top: 50px;
+}
+
+.centered-p {
+  text-align: center;
+}
+
+.find-us-list {
+  text-align: center;
+}
+
+.find-us-list-item {
+  color: red;
+  display: inline;
+  margin: 15px;
+}
+
+.logo-brackets {
+  color: var(--logo-blue);
+  padding: 0px;
+  margin: 0px;
+}
+
+.logo-letters {
+  color: white;
+  padding: 0px;
+  margin: 0px;
+}
+
+.logo-spread {
+  color: var(--logo-red);
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  padding: 0px;
+  margin: 0px;
+  /* font-family: 'Trebuchet MS'; */
+}
+
+.view-wrapper {
+  background-color: black;
+  color: white;
+  padding-bottom: 30px;
+}
+
+/*** scrollbar Selectors ******************************************************/
+
+/* width */
+::-webkit-scrollbar {
+  width: 1.3rem;
+  background-color: var(--logo-blue);
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 3px black; 
+  border-radius: .5rem;
+  margin-top: -5px;
+  margin-bottom: -5px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: var(--logo-red); 
+  border-radius: 1rem;
+  box-shadow: .4rem .4rem 3rem 1rem orange;
+  height: 20px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: green
+}
