@@ -74,6 +74,7 @@ section {
 
 .logo-brackets {
   color: var(--logo-blue);
+  margin: 0px
 }
 
 .logo-letters {
@@ -93,6 +94,16 @@ section {
 .mission-p {
   font-size: 1.6em;
   margin-bottom: 30px;
+}
+
+.nav-link {
+  text-decoration: none;
+  color: var(--logo-red);
+  font-size: 1.5em;
+  text-align: center;
+}
+.nav-link:hover {
+  color: var(--logo-light-red);
 }
 
 .p-heading {
@@ -161,4 +172,14 @@ section {
 }
 ::-webkit-scrollbar-thumb:hover {
   background: orange
+}
+
+
+.test {
+  font-size: 20em;
+}
+
+.test2 {
+  vertical-align: top;
+  margin: 0px;
 }
