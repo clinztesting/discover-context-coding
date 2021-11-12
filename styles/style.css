@@ -38,7 +38,7 @@ section {
 }
 
 .copyright {
-  color: var(--light3)
+  color: var(--light3);
 }
 
 .find-us-list {
@@ -53,9 +53,6 @@ section {
 }
 .find-us-list-item:hover {
   box-shadow: 1px 1px 10px var(--shadow-blue), -1px -1px 10px var(--shadow-blue), -1px 1px 10px var(--shadow-blue), 1px -1px 10px var(--shadow-blue);
-}
-
-.find-us-list-item:hover {
   color: var(--logo-light-red);
 }
 
